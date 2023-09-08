@@ -3,13 +3,14 @@
 /**
  * main - Entry point
  *
- * Return - Always 0 (Success)
+ * Return - 1 (Success)
  *
  * Return: Prints message to standard error
  */
 
 int main(void)
 {
-ch = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-int putchar(stderr, ch);
+fprintf(stderr, "and that piece of art is useful\" - \
+Dora Korpar, 2015-10-19\n");
+return (1);
 }
