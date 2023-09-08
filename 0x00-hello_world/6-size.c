@@ -2,8 +2,11 @@
 
 /**
  * main - Entry point
+ * print the sizes of various types
  *
- * printf - Prints all data types
+ * Printf - Prints all data types
+ *
+ * Sizeof - Determine the size in bytes
  *
  * Return - Always 0 (Success)
  */
