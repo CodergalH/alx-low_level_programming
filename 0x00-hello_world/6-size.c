@@ -9,8 +9,9 @@
  *
  * Return - Always 0 (Success)
  *
- * Return: The main function returns strings that contain sizes of various types in bytes
- * 
+x * Return: The main function returns strings that contain
+ * sizes of various types in bytes
+ *
  */
 
 int main(void)
