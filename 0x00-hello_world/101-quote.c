@@ -10,5 +10,6 @@
 
 int main(void)
 {
-putchar(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+ch = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+int putchar(stderr, ch);
 }
