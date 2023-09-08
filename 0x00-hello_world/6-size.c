@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * print the sizes of various types
+ * Main - Entry point
  *
- * Printf - Prints all data types
+ * Printf - Prints strings
  *
  * Sizeof - Determine the size in bytes
  *
  * Return - Always 0 (Success)
+ *
+ * Return: The main function returns strings that contain sizes of various types in bytes
+ * 
  */
+
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
