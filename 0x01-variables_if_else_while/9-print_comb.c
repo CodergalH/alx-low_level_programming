@@ -13,12 +13,12 @@ int num1 = 0;
 
 do {
 putchar(num1);
-if (num1 != 9)
+num++
+if (num1 < 9)
 {
 putchar(',');
 putchar(' ');
 }
-num1++;
 } while (num1 < 10);
 putchar('\n');
 
