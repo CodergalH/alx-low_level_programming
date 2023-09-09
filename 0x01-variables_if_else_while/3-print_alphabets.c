@@ -12,15 +12,20 @@ int main(void)
 {
 int i, j;
 
-j = 65;
-do {
 i = 97;
+j = 65;
 do {
 putchar(i);
 i++;
-} while (i < 123);
+}
+while (i < 123)
+{
 putchar(j);
 j++;
-} while (j < 91);
+if (j == 91)
+{
+break;
+}
+}
 return (0);
 }
