@@ -14,7 +14,8 @@ int i, j;
 
 i = 97;
 j = 65;
-do {
+do
+{
 putchar(i);
 i++;
 }
