@@ -3,26 +3,24 @@
 #include <stdio.h>
 
 /**
- * main - Check if number stored in n is poitive,
- *        negative or zero 
+ * main - Entry point
+ *
+ * Return - Always 0 (Succes)
+ *
+ * Return: The function check thenumber stored in variable n,
+ * and returns if it is positive, negative or zero
  */
 
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	/* my code */
-	if (n < 0) {
-	  printf("%d is negative\n", n);
-	}
-	else if (n == 0) {
-	  printf("%d is zero\n", n);
-	}
-	else {
-	  printf("%d is positive\n", n);
-	}
-	return (0);
-}
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n < 0)
+printf("%d is negative \n", n);
+else if (n == 0)
+printf("%d is negative \n", n);
+else
+printf("%d is positive \n", n);
+return (0);
