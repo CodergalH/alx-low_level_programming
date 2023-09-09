@@ -19,13 +19,11 @@ putchar(i);
 i++;
 }
 while (i < 123)
-{
 putchar(j);
 j++;
 if (j == 91)
 {
 break;
-}
 }
 return (0);
 }
