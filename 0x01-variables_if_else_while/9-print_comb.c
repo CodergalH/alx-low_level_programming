@@ -12,9 +12,9 @@ int main(void)
 int num1 = 0;
 
 do {
-putchar(num1);
+putchar(num1 + '0');
 num1++;
-if (num1 < 9)
+if (num1 != 9)
 {
 putchar(',');
 putchar(' ');
