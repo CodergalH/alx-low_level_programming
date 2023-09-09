@@ -18,7 +18,7 @@ do {
 if (i == 101 || i == 113)
 {
 i++;
-continue
+continue;
 }
 putchar(i);
 i++;
