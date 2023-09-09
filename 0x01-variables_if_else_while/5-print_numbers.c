@@ -14,7 +14,7 @@ int a = 0;
 do {
 printf("%d", a);
 a++;
-} while (a < 9);
+} while (a < 10);
 printf("\n");
 
 return (0);
