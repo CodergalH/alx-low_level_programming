@@ -19,7 +19,8 @@ do
 putchar(i);
 i++;
 }
-while (i < 123)
+while (i < 123);
+
 putchar(j);
 j++;
 if (j == 91)
