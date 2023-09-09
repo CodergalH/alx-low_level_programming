@@ -17,7 +17,8 @@ j = 10;
 do {
 putchar(i);
 i--;
-} while (i < 96);
+} while (i > 96);
 putchar(j);
+
 return (0);
 }
