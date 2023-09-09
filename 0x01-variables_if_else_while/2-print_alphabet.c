@@ -9,13 +9,14 @@
 
 int main(void)
 {
-int i;
+int i, j;
 
 i = 97;
+j = 10;
 do {
 putchar(i);
 i++;
- putchar("%c\n", i);
+putchar(j);
 } while (i < 123);
 return (0);
 }
