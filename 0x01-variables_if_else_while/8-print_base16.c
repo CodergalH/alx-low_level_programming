@@ -21,7 +21,7 @@ num++;
 do {
 putchar(num2);
 num2++;
-} while (num2 < 101);
+} while (num2 < 103);
 putchar(10);
 
 return (0);
