@@ -15,12 +15,12 @@ int i, j;
 i = 97;
 j = 10;
 do {
+if (i == 101)
+continue;
+if (i == 113)
 putchar(i);
 i++;
-if (i == 113 || i == 101)
-{
 continue;
-}
 } while (i < 123);
 putchar(j);
 return (0);
