@@ -14,7 +14,7 @@ int num1 = 0;
 do {
 putchar(num1);
 num1++;
- if (num1 =< 9)
+if (num1 < 9)
 {
 putchar(',');
 putchar(' ');
