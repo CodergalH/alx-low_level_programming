@@ -12,12 +12,12 @@ int main(void)
 {
 int i, j;
 
-i = 113;
+i = 123;
 j = 10;
 do {
 putchar(i);
 i--;
-} while (i > 97);
+} while (i == 97);
 putchar(j);
 return (0);
 }
