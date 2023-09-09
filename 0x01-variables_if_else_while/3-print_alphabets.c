@@ -14,18 +14,16 @@ int i, j;
 
 i = 97;
 j = 65;
-do
-{
+do {
 putchar(i);
 i++;
-}
-while (i < 123);
+} while (i < 123);
 
+do {
 putchar(j);
 j++;
-if (j == 91)
-{
-break;
-}
+} while (j < 91);
+putchar(10);
+
 return (0);
 }
