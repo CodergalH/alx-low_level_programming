@@ -15,9 +15,11 @@ int i, j;
 i = 97;
 j = 10;
 do {
-if (i == 101)
-continue;
-if (i == 113)
+if (i == 101 || i == 113)
+{
+i++;
+continue
+}
 putchar(i);
 i++;
 continue;
