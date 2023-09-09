@@ -16,13 +16,13 @@ int num2 = 97;
 do {
 putchar(num + '0');
 num++;
-} while (num < 10);
+} while (num < 9);
 
 do {
 putchar(num2);
 num2++;
 } while (num2 < 101);
-putchar(10);
+printf("\n");
 
 return (0);
 }
