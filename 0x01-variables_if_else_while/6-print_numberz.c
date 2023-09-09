@@ -14,8 +14,8 @@ int a = 0;
 do {
 putchar(a + '0');
 a++;
-} while (a < 9);
-putchar("\n");
+} while (a < 10);
+putchar(10);
 
 return (0);
 }
