@@ -20,8 +20,8 @@ while (num2 <= 9)
 {
 if (num2 != num1)
 {
-putchar(num1, '0');
-putchar(num2, '0');
+putchar(num1 + '0');
+putchar(num2 + '0');
 putchar(',');
 putchar(' ');
 }
