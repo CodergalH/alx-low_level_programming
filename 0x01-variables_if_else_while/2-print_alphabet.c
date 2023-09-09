@@ -15,7 +15,7 @@ i = 97;
 do {
 putchar(i);
 i++;
-putchar(i'\n');
+putchar(i)'\n';
 } while (i < 123);
 return (0);
 }
