@@ -10,13 +10,12 @@
 int main(void)
 {
 int num1 = 0;
-int num2 = 0;
 
 do{
 putchar(num1 + '0');
 putchar(',');
 putchar(' ');
-num1++
+num1++;
 } while (num1 < 10);
 putchar('\n');
 
