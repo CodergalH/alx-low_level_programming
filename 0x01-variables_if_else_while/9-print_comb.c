@@ -1,5 +1,4 @@
-
-p#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints the numbers from 00 to 99, numbers separated by
@@ -15,7 +14,7 @@ int num1 = 0;
 do {
 putchar(num1);
 num1++;
-if (num1 < 9)
+ if (num1 =< 9)
 {
 putchar(',');
 putchar(' ');
