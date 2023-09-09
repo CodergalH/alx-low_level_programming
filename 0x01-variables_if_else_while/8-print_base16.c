@@ -5,16 +5,24 @@
  * Return - 0 (Success)
  *
  * Return: Print out numbers
+ * in base 16
  */
 
 int main(void)
 {
-int a = 0;
+int num = 0;
+int num2 = 97;
 
 do {
-printf("%d", a);
-a++;
-} while (a < 9);
+putchar(num + '0');
+num++;
+} while (num < 9);
+
+do {
+putchar(num2)
+putchar(num2);
+num2++;
+} while (num2 < 101);
 printf("\n");
 
 return (0);
