@@ -17,6 +17,6 @@ do {
 putchar(i);
 i++;
 } while (i < 123);
-putchar(10);
+putchar(j);
 return (0);
 }
