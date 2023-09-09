@@ -11,10 +11,13 @@ int main(void)
 {
 int num1 = 0;
 
-do{
-putchar(num1 + '0');
+do {
+if (i != 9)
+{
 putchar(',');
 putchar(' ');
+}
+putchar(i);
 num1++;
 } while (num1 < 10);
 putchar('\n');
