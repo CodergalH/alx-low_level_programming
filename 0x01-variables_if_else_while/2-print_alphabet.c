@@ -15,7 +15,7 @@ i = 97;
 do {
 putchar(i);
 i++;
-putchar(i)'\n';
+ putchar("%c\n", i);
 } while (i < 123);
 return (0);
 }
