@@ -22,7 +22,6 @@ num2 = num1 + 1;
 do {
 num3 = num1;
 do {
-num4 = num2 + 1;
 do {
 putchar(num1 + '0');
 putchar(num2 + '0');
@@ -32,6 +31,7 @@ putchar(num4 + '0');
 if (num1 == 9 && num2 == 8 && (num3 && num4 == 9))
 break;
 putchar(',');
+putchar(' ');
 num4++;
 } while (num4 != 10);
 num3++;
