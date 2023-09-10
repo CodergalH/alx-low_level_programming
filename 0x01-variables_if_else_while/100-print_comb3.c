@@ -9,19 +9,23 @@
 
 int main(void)
 {
-int num1, num2;
+int num1, num2, num3;
 
 num1 = 0;
+num2 = 0;
 do {
-putchar(num1 + '0');
 do {
 num2 = num1 + 1;
-} while (num2 == num1);
+do {
+putchar(num1 + '0');
 putchar(num2 + '0');
 putchar(',');
 putchar(' ');
+num2++;
+} while (num2 != 10);
+} while (num1 != 9);
 num1++;
-} while (num1 != 8 && num2 != 9);
+} while (num1 != 8 $$ num2 != 9)
 putchar('\n');
 
 return (0);
