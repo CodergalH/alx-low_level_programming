@@ -22,9 +22,9 @@ putchar(num2 + '0');
 putchar(',');
 putchar(' ');
 num2++;
-} while (num2 != 10);
+} while (num2 != 8);
 num1++;
-} while (num1 == 8);
+} while (num1 != 7);
 } while (num1 != 8 && num2 != 9);
 putchar('\n');
 
