@@ -21,7 +21,7 @@ putchar(num2 + '0');
 putchar(',');
 putchar(' ');
 num1++;
-} while (num1 !== 8 && num2 !== 9);
+} while (num1 != 8 && num2 != 9);
 putchar('\n');
 
 return (0);
