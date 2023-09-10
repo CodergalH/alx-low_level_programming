@@ -32,7 +32,7 @@ putchar(num4 + '0');
 if (num1 == 9 && num2 == 8 && (num3 && num4 == 9))
 break;
 putchar(',');
-num4++
+num4++;
 } while (num4 != 10);
 num3++;
 } while (num3 != 10);
