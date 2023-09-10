@@ -32,7 +32,7 @@ num3++;
 num2++;
 } while (num2 != 8);
 num1++;
-} while (num1 != 9);
+} while (num1 != 7);
 break;
 } while (num1 != 7 && num2 != 8);
 putchar('\n');
