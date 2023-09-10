@@ -12,21 +12,15 @@ int main(void)
 int num1, num2;
 
 num1 = 0;
-
+do {
+putchar(num1 + '0');
 do {
 num2 = num1 + 1;
-num1++;
-while (num2 <= 9)
-{
-if (num2 != num1)
-{
-putchar(num1 + '0');
+} while (num2 != num1 && num2 < num1);
 putchar(num2 + '0');
 putchar(',');
 putchar(' ');
-}
-num2++;
-}
+num1++;
 } while (num1 == 8 && num2 == 9);
 putchar('\n');
 
