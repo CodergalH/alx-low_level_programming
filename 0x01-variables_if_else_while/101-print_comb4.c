@@ -34,7 +34,7 @@ num2++;
 num1++;
 } while (num1 != 9);
 break;
-} while (num1 != 8 && num2 != 9);
+} while (num1 != 7 && num2 != 8);
 putchar('\n');
 
 return (0);
