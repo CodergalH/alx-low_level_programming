@@ -20,16 +20,16 @@ do {
 putchar(num1 + '0');
 putchar(' ');
 putchar(num2 + '0');
-if (num1 == 98 && num2 == 99)
+if (num1 == "98" && num2 == "99")
 break;
 putchar(',');
 putchar(' ');
 num2++;
-} while (num2 != 100);
+} while (num2 != "100");
 num1++;
-} while (num1 != 99);
+} while (num1 != "99");
 break;
-} while (num1 != 8 && num2 != 9);
+} while (num1 != "98"  && num2 != "99");
 putchar('\n');
 
 return (0);
