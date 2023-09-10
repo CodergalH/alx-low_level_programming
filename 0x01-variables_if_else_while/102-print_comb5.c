@@ -21,8 +21,8 @@ do {
 num2 = num1 + 1;
 do {
 num3 = num1;
+num4 = num2 + 1;
 do {
-num4 = num2;
 do {
 putchar(num1 + '0');
 putchar(num2 + '0');
