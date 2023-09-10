@@ -16,12 +16,12 @@ do {
 putchar(num1 + '0');
 do {
 num2 = num1 + 1;
-} while (num2 != num1);
+} while (num2 < 10 );
 putchar(num2 + '0');
 putchar(',');
 putchar(' ');
 num1++;
-} while (num1 == 8 && num2 == 9);
+} while (num1 !== 8 && num2 !== 9);
 putchar('\n');
 
 return (0);
