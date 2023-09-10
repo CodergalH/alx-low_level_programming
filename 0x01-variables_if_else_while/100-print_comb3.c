@@ -16,7 +16,7 @@ do {
 putchar(num1 + '0');
 do {
 num2 = num1 + 1;
-} while (num2 != num1);
+} while (num2 < num1);
 putchar(num2 + '0');
 putchar(',');
 putchar(' ');
