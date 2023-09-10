@@ -23,8 +23,8 @@ putchar(',');
 putchar(' ');
 num2++;
 } while (num2 != 10);
-} while (num1 != 9);
 num1++;
+} while (num1 != 9);
 } while (num1 != 8 && num2 != 9);
 putchar('\n');
 
