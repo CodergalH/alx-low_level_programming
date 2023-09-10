@@ -9,7 +9,7 @@
 
 int main(void)
 {
-int num1, num2, num3;
+int num1, num2;
 
 num1 = 0;
 num2 = 0;
@@ -25,7 +25,7 @@ num2++;
 } while (num2 != 10);
 } while (num1 != 9);
 num1++;
-} while (num1 != 8 $$ num2 != 9)
+} while (num1 != 8 && num2 != 9)
 putchar('\n');
 
 return (0);
