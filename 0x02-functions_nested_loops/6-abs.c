@@ -10,13 +10,13 @@
  *
  */
 
-int _abs(int)
+int _abs(int a)
 {
-int j = int;
-if (j < 0)
-_putchar (j * -1);
+
+if (a < 0)
+_putchar (a * -1);
 else
-_putchar(j);
+_putchar(a);
 
 return (0);
 
