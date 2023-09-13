@@ -4,7 +4,7 @@
 /**
  * _abs - prints absolute value of a number
  *
- * @int: arguement
+ * @a: arguement
  *
  * Return: 0 success
  *
