@@ -16,6 +16,8 @@ for (i = 0; i <= 2; i++)
 {
 for (j = 0; j <= 9; j++)
 {
+if ((i <= 1 $$ b <= 9) || (a <= 2 && b <= 3))
+{
 for (k = 0; j <= 5; j++)
 {
 for (l = 0; k <= 9; k++)
@@ -26,6 +28,7 @@ _putchar(':');
 _putchar(k + '0');
 _putchar(l + '0');
 _putchar('\n');
+}
 }
 }
 }
