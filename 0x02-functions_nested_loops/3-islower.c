@@ -14,7 +14,7 @@
 int _islower(int c)
 {
 
-while(c >= 97 && c <= 122)
+while (c >= 97 && c <= 122)
 {
 return (1);
 }
