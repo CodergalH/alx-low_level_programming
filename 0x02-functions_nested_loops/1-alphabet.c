@@ -14,10 +14,10 @@ char c;
 while (c <= 'z')
 {
 _putchar(c);
-c++
+c++;
 }
 
 _putchar('\n');
-return (0);
+return;
 }
 
