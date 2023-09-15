@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * mul - check if the int c is uppercase
+ * @c: character to be checked
+ *
+ * Return: 1 (success) or 0 (otherwise)
+ */
+
+int mul(int a, int b)
+{
+int mul;
+
+mul = a * b;
+
+return (mul);
+
+}
