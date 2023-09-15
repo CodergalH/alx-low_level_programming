@@ -7,7 +7,7 @@
  * Return: void
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
 int i;
 
@@ -19,5 +19,5 @@ i++;
 }
 
 _putchar('\n');
-return ();
+return (0);
 }
