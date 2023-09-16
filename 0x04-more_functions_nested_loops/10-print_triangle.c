@@ -17,7 +17,7 @@ if (size > 0)
 for (i = 0; i <= size; i++)
 {
 
-for ((j = size - 1); j > 0; j--)
+for (j = (size - 1); j > 0; j--)
 {
 _putchar(32);
 }
@@ -31,9 +31,6 @@ if (i == size)
 continue;
 _putchar(10);
 }
-
-_putchar(10);
-
 }
-
+_putchar(10);
 }
