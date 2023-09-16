@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
- * fizz_buzz - prints numbers from 1 to 100
+ * main - prints numbers from 1 to 100
  * for multiples of 3 prints fizz
  * for multiples of 5 prints buzz
  * for multiples of 3 and 5 prints fizzbuzz
  *
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 
