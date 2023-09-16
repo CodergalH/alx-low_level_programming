@@ -22,7 +22,7 @@ for (j = (size - i); j > 0; j--)
 _putchar(32);
 }
 
-for (j = 0; j < i; j++)
+for (j = 1; j < i; j++)
 {
 _putchar(35);
 }
