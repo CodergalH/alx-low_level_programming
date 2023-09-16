@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_diagonal -  print backslashes equal to value of int n
+ * print_square -  print hashes equal to value of int n
  *
  * @size: interger
  */
