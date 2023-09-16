@@ -20,7 +20,7 @@ for (j = 0; j < size; j++)
 _putchar(35);
 }
 
-if (i == (n - 1))
+if (i == (size - 1))
 continue;
 _putchar(10);
 }
