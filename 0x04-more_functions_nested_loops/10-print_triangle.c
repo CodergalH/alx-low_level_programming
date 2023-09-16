@@ -14,10 +14,10 @@ int i, j;
 if (size > 0)
 {
 
-for (i = 0; i <= size; i++)
+for (i = 1; i <= size; i++)
 {
 
-for (j = (size - 1); j > 0; j--)
+for (j = (size - i); j > 0; j--)
 {
 _putchar(32);
 }
