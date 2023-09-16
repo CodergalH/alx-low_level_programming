@@ -6,7 +6,7 @@ This repository contains programs written for the low-level programming and algo
 
 ## Structure
 
-[0x00. C - Hello, World]: 0x00. C - Hello, World
+0x00. C - Hello, World
 0x01. C - Variables, if, else, while
 0x02. C -Functions_nested_loops
 0x03. C-Debugging
@@ -38,6 +38,8 @@ This repository contains programs written for the low-level programming and algo
 0x1C. C - Makefiles
 0x1D. C - Binary trees
 0x1E. C - Search Algorithms
+
+[0x00. C - Hello, World]: 0x00. C - Hello, World
 
 ## Author
 
