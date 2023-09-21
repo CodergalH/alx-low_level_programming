@@ -16,6 +16,8 @@ add++;
 
 for (counter = add - 1; counter >= 0; counter--)
 {
+if (counter < 0)
+break;
 _putchar(s[counter]);
 }
 
