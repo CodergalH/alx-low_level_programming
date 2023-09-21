@@ -17,7 +17,7 @@ add++;
 for (counter = add; counter >= -1; counter--)
 {
 if (counter < add && counter >= 0)
-_putchar(str[counter]);
+_putchar(s[counter]);
 else
 _putchar(10);
 }
