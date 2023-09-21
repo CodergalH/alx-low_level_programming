@@ -12,7 +12,7 @@ int i = 0, length;
 length = _strlen(s) - 1;
 while (length > i)
 {
-void swap_char(s + length, s + i);
+void swap_char((s + length), (s + i));
 i++;
 length--;
 }
