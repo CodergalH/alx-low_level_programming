@@ -12,8 +12,8 @@ int _strlen(char *s)
 int counter, add;
 
 add = 0;
-for (counter = 0; s[counter] != '\0'; count++)
-inc++;
+for (counter = 0; s[counter] != '\0'; counter++)
+add++;
 
-return (inc);
+return (add);
 }
