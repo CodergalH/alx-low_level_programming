@@ -12,7 +12,7 @@ int i = 0, length;
 length = _strlen(s) - 1;
 while (length > i)
 {
-swap_char(s + length, s + i);
+void swap_char(s + length, s + i);
 i++;
 length--;
 }
@@ -27,7 +27,7 @@ length--;
 int _strlen(char *s)
 {
 int counter, add;
-inc = 0;
+add = 0;
 for (counter = 0; s[counter] != '\0'; counter++)
 add++;
 
