@@ -18,7 +18,7 @@ for (counter = 0; counter <= add; counter++)
 {
 if (counter < add)
 {
-if (counter < (add / 2) || counter < ((add - 1) / 2))
+if (counter < (add / 2) || counter == ((add - 1) / 2))
 {
 continue;
 }
