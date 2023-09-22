@@ -21,7 +21,7 @@ printf("%d, ", a[count]);
 else
 {
 printf("%d", a[count]);
+printf("\n");
 }
 }
-_putchar(10);
 }
