@@ -9,7 +9,9 @@
 
 void print_array(int *a, int n)
 {
+
 int count;
+
 for (count = 0; count < n; count++)
 {
 if (count != n - 1)
@@ -20,6 +22,6 @@ else
 {
 printf("%d", a[count]);
 }
-_putchar(10);
 }
+_putchar(10);
 }
