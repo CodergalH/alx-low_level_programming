@@ -17,13 +17,9 @@ if (n <= 0)
 printf(" ");
 
 if (count != n - 1)
-{
 printf("%d, ", a[count]);
-}
 else
-{
 printf("%d", a[count]);
+}
 printf("\n");
-}
-}
 }
