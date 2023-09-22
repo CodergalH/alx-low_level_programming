@@ -11,11 +11,11 @@ void print_array(int *a, int n)
 {
 int count;
 
-if (n <= 0)
-printf("");
-
-for (count = 0; count < n; count++)putchar(10);
+for (count = 0; count < n; count++);
 {
+if (n <= 0)
+break;
+
 if (count != n - 1)
 {
 printf("%d, ", a[count]);
