@@ -14,7 +14,7 @@ int count;
 for (count = 0; count < n; count++)
 {
 if (n <= 0)
-break;
+printf(" \n");
 
 if (count != n - 1)
 {
