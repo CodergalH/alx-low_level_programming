@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 {
 int count;
 
-for (count = 0; count < n; count++);
+for (count = 0; count < n; count++)
 {
 if (n <= 0)
 break;
