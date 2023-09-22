@@ -12,7 +12,7 @@ void print_array(int *a, int n)
 int count;
 
 if (n <= 0)
-break;
+printf("");
 
 for (count = 0; count < n; count++)putchar(10);
 {
