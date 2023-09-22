@@ -14,17 +14,14 @@ break;
 int count;
 for (count = 0; count < n; count++)
 {
-if (count == n)
+if (count != n - 1)
 {
-break;
+printf("%d, ", a[count]);
 }
+else
+{
 printf("%d", a[count]);
-if (count == n - 1)
-{
-_putchar(10);
-break;
 }
-printf(",");
-printf(" ");
+_putchar(10);
 }
 }
