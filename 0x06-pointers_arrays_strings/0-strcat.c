@@ -6,7 +6,7 @@
  * @dest: string 1
  * @src: string 2
  *
- * Return: Catenated string
+ * Return: catenated string
  */
 
 char *_strcat(char *dest, char *src)
