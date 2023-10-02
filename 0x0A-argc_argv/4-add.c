@@ -21,7 +21,7 @@ int count;
 
 for (count = 1, mul = 0; count < argc; count++)
 {
-if ( *argv[count] < '0' || *argv[count] > '9' )
+if (*argv[count] < '0' || *argv[count] > '9')
 {
 printf("Error\n");
 return (1);
