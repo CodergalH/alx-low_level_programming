@@ -17,7 +17,7 @@ if (argc == 3)
 {
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-mul = i * j;
+mul = i *j;
 
 printf("%d\n", mul);
 }
