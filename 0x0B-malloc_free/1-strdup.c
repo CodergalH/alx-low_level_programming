@@ -18,9 +18,9 @@ if (str == NULL)
 return (NULL);
 }
 
-if (str[size] != '\0')
+for (size = 0; str[size] != '\0';)
 {
-size++;
+size += 1;
 }
 
 str1 = malloc(sizeof(char) * size + 1);
