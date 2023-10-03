@@ -21,8 +21,15 @@ return (NULL);
 
 str = malloc(sizeof(char) * size);
 
+if (str == NULL)
+{
+return (NULL);
+}
+else
+}
 for (count = 0 ; count <= size - 1 ; count++)
 str[count] = c;
+}
 
 return (str);
 }
