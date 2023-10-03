@@ -23,7 +23,7 @@ if (str[size] != '\0')
 size++;
 }
 
-str1 = malloc(sizeof(char) * size);
+str1 = malloc(sizeof(char) * size + 1);
 
 if (str1 == NULL)
 {
