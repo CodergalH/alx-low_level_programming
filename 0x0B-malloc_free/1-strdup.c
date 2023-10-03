@@ -10,7 +10,8 @@
 
 char *_strdup(char *str)
 {
-int count, size, char str1[];
+int count, size;
+char str1[];
 
 if (str == NULL)
 {
