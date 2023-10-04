@@ -25,8 +25,8 @@ else
 k++;
 }
 
-words = malloc((k + 2) * sizeof(char *));
-memset(words, 0, (k + 2) * sizeof(char *));
+words = malloc((k + 2) * len * sizeof(char *));
+memset(words, 0, (k + 2) * len * sizeof(char *));
 if (words == NULL)
 return (NULL);
 
