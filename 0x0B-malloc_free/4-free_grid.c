@@ -3,13 +3,14 @@
 
 /**
  * free_grid - free prebiously allocated memory
- * 
- * @*grid: array
+ *
+ * @grid: array
  * @height: no of arrays in array
  * Return: nothing
  */
 
-void free_grid(int **grid, int height) {
+void free_grid(int **grid, int height)
+{
 int i;
 
 for (i = 0; i < height; i++)
