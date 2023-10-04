@@ -14,7 +14,7 @@ char **strtow(char *str)
 int i, j, len = 0;
 char **words;
 
-if (str == NULL || str[0] == '\0')
+if (str == NULL || str == "")
 return (NULL);
 
 for (i = 0; str[i] != '\0'; i++)
@@ -32,7 +32,7 @@ for (i = 1, j = 0; str[j] != '\0'; i++)
 {
 if (str[j] == ' ')
 {
-str[j] = '\0';
+str[j] = '\n';
 words[i] = str + j + 1;
 j++;
 }
