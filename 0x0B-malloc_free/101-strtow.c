@@ -25,8 +25,8 @@ else
 k++;
 }
 
-words = malloc((k + 2) * len * sizeof(char *));
-memset(words, 0, (k + 2) * len * sizeof(char *));
+words = malloc((len + 2) * sizeof(char *));
+memset(words, 0, (len + 2) * sizeof(char *));
 if (words == NULL)
 return (NULL);
 
@@ -35,8 +35,8 @@ for (i = 1, j = 0; str[j] != '\0'; i++)
 {
 if (str[j] == ' ')
 {
-str[j] = '\n';
-words[i] = str + j + 1;
+str[j] = '\0';
+words[i] = malloc((str + j + 1) * sizeof(char *));
 j++;
 }
 else
