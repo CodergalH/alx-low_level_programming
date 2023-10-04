@@ -18,8 +18,10 @@ if (str == NULL || str[0] == '\0')
 return (NULL);
 
 for (i = 0; str[i] != '\0'; i++)
+{
 if (str[i] == ' ')
 len++;
+}
 
 words = malloc((len + 2) * sizeof(char *));
 if (words == NULL)
