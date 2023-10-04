@@ -37,6 +37,7 @@ if (str[j] == ' ')
 {
 str[j] = '\0';
 words[i] = malloc((j + 1) * sizeof(char *));
+memset(words[i], 0, (j + 1) * sizeof(char *);
 words[i] = str + j + 1;
 j++;
 }
