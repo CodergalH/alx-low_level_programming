@@ -36,7 +36,8 @@ for (i = 1, j = 0; str[j] != '\0'; i++)
 if (str[j] == ' ')
 {
 str[j] = '\0';
-words[i] = malloc((str + j + 1) * sizeof(char *));
+words[i] = malloc((j + 1) * sizeof(char *));
+words[i] = str + j + 1;
 j++;
 }
 else
