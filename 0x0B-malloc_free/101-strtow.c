@@ -24,6 +24,7 @@ len++;
 }
 
 words = malloc((len + 2) * sizeof(char *));
+memset(words, 0, (len + 2) * sizeof(char *));
 if (words == NULL)
 return (NULL);
 
