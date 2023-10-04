@@ -16,20 +16,20 @@ int **grid;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-*grid = (int **) malloc(height * sizeof(int *));
+grid = (int **) malloc(height * sizeof(int *));
 if (grid == NULL)
 return (NULL);
 
-for (int i = 0; i < height; i++)
+for (i = 0; i < height; i++)
 {
 grid[i] = (int *) malloc(width * sizeof(int));
 if (grid[i] == NULL)
 return (NULL);
 }
 
-for (int j = 0; j < height; j++)
+for (j = 0; j < height; j++)
 {
-for (int k = 0; k < width; k++)
+for (k = 0; k < width; k++)
 {
 grid[j][k] = 0;
 }
