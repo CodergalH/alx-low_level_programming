@@ -11,20 +11,22 @@
 
 char **strtow(char *str)
 {
-int i, j, len = 0;
+int i, j, k, len = 0;
 char **words;
 
 if (str == NULL || *str == '\0')
 return (NULL);
 
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0, k = 0; str[i] != '\0'; i++)
 {
 if (str[i] == ' ')
 len++;
+else
+k++;
 }
 
-words = malloc((len + 2) * sizeof(char *));
-memset(words, 0, (len + 2) * sizeof(char *));
+words = malloc((k + 2) * sizeof(char *));
+memset(words, 0, (k + 2) * sizeof(char *));
 if (words == NULL)
 return (NULL);
 
