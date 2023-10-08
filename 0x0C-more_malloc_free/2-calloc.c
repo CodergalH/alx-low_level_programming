@@ -24,7 +24,7 @@ array = malloc(total_size);
 if (array == NULL)
 return (NULL);
 
-for (index = 0; index < nmemb; index++
+for (index = 0; index < total_size; index++
 array[index] = 0;
 
 return (array);
