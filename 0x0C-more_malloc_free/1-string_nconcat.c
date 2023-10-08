@@ -44,9 +44,9 @@ else
 {
 memcpy(str, s1, size1);
 if (n == size2)
-memcpy(str + size1, s2, size2 + 1);
+memcpy(str + size1, s2, size2);
 else
-memcpy(str + size1, s2, n + 1);
+memcpy(str + size1, s2, n - 1);
 }
 
 return (str);
