@@ -32,9 +32,7 @@ n = size2;
 str = malloc(sizeof(char) * size1 + n + 1);
 
 if (str == NULL)
-{
 return (NULL);
-}
 
 strcpy(str, s1);
 strncpy(str + size1, s2, n);
