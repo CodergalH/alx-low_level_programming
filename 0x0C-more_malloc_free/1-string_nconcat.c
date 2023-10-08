@@ -27,21 +27,18 @@ size1 = strlen(s1);
 size2 = strlen(s2);
 
 if (n >= size2)
-str = malloc(sizeof(char) * (size1 + size2));
-else
-str = malloc(sizeof(char) * size1 + n);
+n = size2;
+
+str = malloc(sizeof(char) * size1 + n + 1);
 
 if (str == NULL)
 {
 return (NULL);
 }
 
-memcpy(str, s1, size1);
-if (n >= size2)
-memcpy(str + size1, s2, size2 + 1);
-else
-memcpy(str + size1, s2, n);
-}
+strcpy(str, s1);
+strncpy(str + size1, s2, n);
+str[size + n] = '\0';
 
 return (str);
 }
