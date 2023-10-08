@@ -14,7 +14,7 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int size, size1, size2;
+int size1, size2;
 char *str;
 
 if (s1 == NULL)
@@ -23,30 +23,24 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 
-for (size = 0, size1 = 0; s1[size] != '\0';)
-{
-size += 1;
-size1 += 1;
-}
-for (size2 = 0; s2[size2] != '\0';)
-{
-size += 1;
-size2 += 1;
-}
+size1 = strlen(s1);
+size2 = strlen(s2);
 
-str = malloc(sizeof(char) * (size1 + n + 1));
+if (n >= size2)
+str = malloc(sizeof(char) * (size1 + size2));
+else
+str = malloc(sizeof(char) * size1 + n);
 
 if (str == NULL)
 {
 return (NULL);
 }
-else
-{
+
 memcpy(str, s1, size1);
 if (n >= size2)
-memcpy(str + size1, s2, size2);
+memcpy(str + size1, s2, size2 + 1);
 else
-memcpy(str + size1, s2, n - 1);
+memcpy(str + size1, s2, n);
 }
 
 return (str);
