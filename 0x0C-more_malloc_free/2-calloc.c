@@ -11,14 +11,15 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int index;
+unsigned int index, total_size;
+char *array;
 
 if (nmemb == 0 || size == 0)
 return (NULL);
 
-size_t total_size = nmemb * size;
+total_size = nmemb * size;
 
-void *array = malloc(total_size);
+array = malloc(total_size);
 
 if (array == NULL)
 return (NULL);
