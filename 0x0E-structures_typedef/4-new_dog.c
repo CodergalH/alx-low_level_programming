@@ -22,6 +22,7 @@ if (ndog == NULL)
 return (NULL);
 
 ndog->name = name;
+ndog->age = age;
 ndog->owner = owner;
 
 return (ndog);
