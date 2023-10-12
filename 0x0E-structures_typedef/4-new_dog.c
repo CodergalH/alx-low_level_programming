@@ -1,6 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <strin.h>
 
 /**
  * new_dog - creates a new dog
@@ -21,9 +22,9 @@ ndog = malloc(sizeof(dog_t));
 if (ndog == NULL)
 return (NULL);
 
-ndog->name = name;
+ndog->name = strcpy(ndog->name, name);
 ndog->age = age;
-ndog->owner = owner;
+ndog->owner = strcpy(ndog->owner, owner);
 
 return (ndog);
 }
