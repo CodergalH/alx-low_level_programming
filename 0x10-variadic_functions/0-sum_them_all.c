@@ -15,12 +15,13 @@ if (n == 0)
 return (0);
 
 va_list args;
+unsigned int i, x, s = 0;
+
 va_start(args, n);
 
-unsigned int i, x, s = 0;
 for (i = 0; i < n; i++)
 {
-x = va_arg(args, unsigned int);
+x = va_arg(args, int);
 s += x;
 }
 va_end(args);
