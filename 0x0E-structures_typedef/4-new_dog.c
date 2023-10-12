@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib.h>
+11;rgb:0000/0000/0000#include <stdlib.h>
 #include <stdio.h>
 #include <strin.h>
 
@@ -22,9 +22,9 @@ ndog = malloc(sizeof(dog_t));
 if (ndog == NULL)
 return (NULL);
 
-ndog->name = strcpy(ndog->name, name);
+ndog->name = name;
 ndog->age = age;
-ndog->owner = strcpy(ndog->owner, owner);
+ndog->owner = owner;
 
 return (ndog);
 }
