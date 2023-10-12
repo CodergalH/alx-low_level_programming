@@ -4,10 +4,6 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-/**
- * This ia a text structure
- */
-
 typedef struct
 {
 const char *type;
