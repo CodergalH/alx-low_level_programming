@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
-typedef struct {
-const char *type;
-void (*printFunction)(va_list arg);
-} printer_t;
-
-
 
 /**
 * print_char - Prints a char.
