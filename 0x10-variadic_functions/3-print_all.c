@@ -1,4 +1,12 @@
-#include <stdio.h>#include "variadic_functions.h"
+#include <stdio.h>
+#include "variadic_functions.h"
+
+typedef struct {
+const char *type;
+void (*printFunction)(va_list arg);
+} printer_t;
+
+
 
 /**
 * print_char - Prints a char.
@@ -95,13 +103,13 @@ while (format && (*(format + i)))
 {
 j = 0;
 
-while (j < 4 && (*(format + i) != *(funcs[j].symbol)))
+while (j < 4 && (*(format + i) != *(funcs[j].type)))
 j++;
 
 if (j < 4)
 {
 printf("%s", separator);
-funcs[j].print(args);
+funcs[j].printFunction(args);
 separator = ", ";
 }
 
