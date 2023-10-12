@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include "variadic_functions.h"
-
+#include <stdio.h>#include "variadic_functions.h"
 
 /**
 * print_char - Prints a char.
@@ -15,6 +13,7 @@ letter = va_arg(arg, int);
 
 printf("%c", letter);
 }
+
 
 /**
 * print_int - Prints an int.
@@ -66,6 +65,8 @@ return;
 
 printf("%s", str);
 }
+
+
 
 /**
 *print_all - prints anything
