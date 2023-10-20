@@ -7,7 +7,7 @@ main:
 push rbp
 
 mov rdi, format
-mov rsi, messaage
+mov rsi, message
 mov rax, 0
 
 call printf wrt ..plt
