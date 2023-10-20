@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -22,4 +23,4 @@ struct list_s *next;
 int _putchar(char *s);
 size_t print_list(const list_t *h);
 
-#endif /* MAIN_H */
+#endif 
