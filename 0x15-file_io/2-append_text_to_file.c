@@ -16,7 +16,7 @@ ssize_t bw;
 if (filename == NULL)
 return (-1);
 
-fd = open(filename, O_WRONLY| O_APPEND);
+fd = open(filename, O_WRONLY | O_APPEND);
 if (fd == -1)
 return (-1);
 
@@ -30,7 +30,7 @@ if (bw == -1)
 close(fd);
 return (-1);
 }
-      
+
 }
 
 close(fd);
