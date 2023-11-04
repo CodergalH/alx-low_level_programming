@@ -36,7 +36,7 @@ close(fd);
 free(buff);
 return (0);
 }
-  
+
 bw =  write(STDOUT_FILENO, buff, br);
 
 close(fd);
