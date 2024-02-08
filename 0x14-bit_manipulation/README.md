@@ -38,7 +38,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Tasks
 
-#### 0. 0                                                    ```mandatory```
+#### [0. 0](./0-binary_to_uint.c) ```mandatory```
 Write a function that converts a binary number to an unsigned int.
 
  - Prototype: unsigned int binary_to_uint(const char *b);
