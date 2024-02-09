@@ -13,7 +13,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	int i, j, store;
 	unsigned int results = 0;
-	unsigned int dec[sizeof(int) * 200];
+	unsigned int dec[640];
 	unsigned int binary_digit[] = {0, 1};
 
 	if (b == NULL)
