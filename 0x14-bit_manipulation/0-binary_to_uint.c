@@ -12,7 +12,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	int i, j, store;
-	unsigned int dec[sizeof(unsigned int) * 8], results = 0;
+	unsigned int dec[64], results = 0;
 	unsigned int binary_digit[] = {0, 1};
 
 	if (b == NULL)
