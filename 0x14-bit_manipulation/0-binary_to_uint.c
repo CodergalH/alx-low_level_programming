@@ -23,6 +23,12 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] != '0' && b[i] != '1')
 			return (0);
+	}
+
+	store = i;
+
+	for (--i; i >= 0; --i)
+	{
 
 		if (b[i] == '0')
 			dec[i] = binary_digit[0];
@@ -30,7 +36,7 @@ unsigned int binary_to_uint(const char *b)
 			dec[i] = binary_digit[1];
 	}
 
-	store = i;
+	i = store;
 	for (j = 0; j < i; ++j)
 	{
 		for (--i ; i > j ; --i)
