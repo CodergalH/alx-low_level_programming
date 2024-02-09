@@ -34,7 +34,7 @@ unsigned int binary_to_uint(const char *b)
 	for (j = 0; j < i; ++j)
 	{
 		for (--i ; i > j ; --i)
-			d"ec[j] *= 2;
+			dec[j] *= 2;
 		i = store;
 	}
 
