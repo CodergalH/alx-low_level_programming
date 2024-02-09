@@ -12,7 +12,8 @@
 unsigned int binary_to_uint(const char *b)
 {
 	int i, j, store;
-	unsigned int dec[64], results = 0;
+	unsigned int dec[] = (int*) malloc(sizeof(int) * 100);
+	unsigned int results = 0;
 	unsigned int binary_digit[] = {0, 1};
 
 	if (b == NULL)
