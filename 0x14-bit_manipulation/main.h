@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#define INT_SIZE sizeof(int) * 8
+#define INT_SIZE (sizeof(int) * 8)
 
 
 #include <stdio.h>
