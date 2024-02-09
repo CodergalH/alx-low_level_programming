@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 			dec[i] = binary_digit[1];
 	}
 
-	i = store;
+	store = i;
 	for (j = 0; j < i; ++j)
 	{
 		for (--i ; i > j ; --i)
