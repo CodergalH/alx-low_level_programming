@@ -12,7 +12,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	int i, j, store;
-	unsigned int dec[64], results = 0;
+	unsigned int dec[sizeof(unsigned int) * 8], results = 0;
 	unsigned int binary_digit[] = {0, 1};
 
 	if (b == NULL)
@@ -29,7 +29,7 @@ unsigned int binary_to_uint(const char *b)
 			dec[i] = binary_digit[1];
 	}
 
-	score = i;
+	store = i;
 	for (j = 0; j < i; ++j)
 	{
 		for (--i ; i > j ; --i)
