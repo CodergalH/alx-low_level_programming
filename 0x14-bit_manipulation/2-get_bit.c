@@ -13,6 +13,9 @@ int get_bit(unsigned long int n, unsigned int index)
 	int num, i, bit_index;
 	int binary[INT_SIZE];
 
+	if (n == NULL || index == NULL)
+		return (-1);
+
 	num = INT_SIZE - 1;
 	bit_index = num - index;
 
