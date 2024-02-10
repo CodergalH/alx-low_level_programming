@@ -23,24 +23,24 @@ int set_bit(unsigned long int *n, unsigned int index)
 
 	while (num >= 0)
 	{
-		binary[num] = n & 1;
+		binary[num] = *n & 1;
 		num--;
-		n >>= 1;
+		*n >>= 1;
 	}
 
 	binary[bit_index] = 1;
 	i = store;
 
-	for (int j = 0; j <= i; ++j)
+	for (j = 0; j <= i; ++j)
 	{
 		for (--i; i >= j; --i)
 			binary[j] *= 2;
 
-		i = INT_SIZE - 1;
+		i = store;
 	}
 
 	for (j = 0; j <= i; ++j)
-		result += binary[i];
+		result += binary[j];
 
 	*n = result;
 
