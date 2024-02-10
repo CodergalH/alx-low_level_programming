@@ -2,12 +2,11 @@
 
 /**
  * flip_bits - returns the number of bits you would need to flip
- * to get from one number to another.
+ * 		to get from one number to another.
  * @n:first number
  * @m:other number
  *
- * return:returns the number of bits you would need to flip
- * to get from one number to another.
+ * return: no of flipped bits
  *
  */
 
