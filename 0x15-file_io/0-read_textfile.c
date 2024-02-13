@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 
 	fd = open(filename, O_RDWR);
-	if (fd < 0)
+	if (fd == -1)
 	{
 		free(c);
 		return (0);
@@ -29,7 +29,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 
 	bytes_read = read(fd, c, letters);
-	if (bytes_read < 0)
+	if (bytes_read == -1)
 	{
 		free(c);
 		return (0);
@@ -37,13 +37,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 
 	bytes_written = write(STDOUT_FILENO, c, bytes_read);
-	if (bytes_written < 0 || bytes_written < bytes_read)
+	if (bytes_written == -1 || bytes_written < bytes_read)
 	{
 		free(c);
 		return (0);
 		exit(1);
 	}
 
+	close(fd);
 	free(c);
 	return (bytes_written);
 }
