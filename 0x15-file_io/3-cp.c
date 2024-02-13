@@ -39,7 +39,7 @@ int copy(char *filename1, char *filename2)
 	char buf[1024];
 
 	file_from = open(filename1, O_RDONLY);
-	file_to = open(filename2, O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
+	file_to = open(filename2, O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	if (file_from == -1)
 	{
